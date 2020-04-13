@@ -16,7 +16,7 @@ app.use(authRoutes);
 app.use(trackRoutes);
 
 const mongoUri =
-    "mongodb+srv://trackapp_admin:random_pass@track-app-cluster-tkvl7.mongodb.net/test?retryWrites=true&w=majority";
+    "mongodb+srv://user_expired_in_1_week:randompass@track-app-cluster-tkvl7.mongodb.net/test?retryWrites=true&w=majority";
 
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
